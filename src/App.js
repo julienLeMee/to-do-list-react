@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <h1>
           TO DO LIST with React
         </h1>
+        <button className='btn btn-primary'>Click me</button>
       </header>
     </div>
   );
