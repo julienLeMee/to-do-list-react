@@ -6,11 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 export default function Form() {
 
   const [todo, setTodo] = useState([
-    {id: uuidv4(), text: 'Apprendre React'},
-    {id: uuidv4(), text: 'Apprendre Redux'},
-    {id: uuidv4(), text: 'Apprendre Unity'},
-    {id: uuidv4(), text: 'Apprendre TypeScript'},
-    {id: uuidv4(), text: 'Apprendre React Native'}
+    {id: uuidv4(), text: 'Add tasks to do'},
   ]);
 
   const [input, setInput] = useState();
