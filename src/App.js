@@ -1,17 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          TO DO LIST with React
-        </h1>
-        <button className='btn btn-primary'>Click me</button>
-      </header>
+      <h1 className='text-center mt-3'>Todo-List</h1>
+      <Form />
     </div>
   );
 }
